@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: black 1px solid;
+  border-radius: 2em;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+@media (min-width: 400px) {
+  h1 {
+    font-size: 4rem;
+  }
+  button {
+    font-size: 2rem;
+    margin: 1rem .9rem;
+    padding: .9rem;
+  }
+}
